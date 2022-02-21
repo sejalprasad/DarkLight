@@ -1,0 +1,100 @@
+#bod{
+    background-color: var(--secondary-color);
+}
+
+section{
+    height: 90vh;
+    position: relative;
+}
+
+.entire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+table{
+    text-align: center;    
+    margin: auto;
+}
+
+
+#show th, #show td{
+    padding: 13px;
+}
+
+#btna td input{
+    width: 10;;
+}
+
+#floating{
+    width: 50%;
+    float: left;
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.adjust{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#scroll{
+    width: 50%;
+    float: left;
+    background-color: var(--primary-color);
+    margin-left: 80px;
+
+}
+
+#scroll{
+    margin-top: 30px;
+    width: 500px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+span{
+    color: var(--third-color);
+}
+
+th{
+    color: var(--third-color);
+
+}
+
+
+
+:root{
+    --primary-color: #E7EBE0FF;
+    --secondary-color: #F5C7B8FF;
+    --third-color: #071330;   
+}  
+
+.dark{
+    --primary-color: #505050;
+    --secondary-color: #202020;
+    --third-color: #f2f2f2;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
